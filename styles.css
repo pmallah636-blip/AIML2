@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 14px;
+}
+
+.search-box {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-box select,
+.search-box input {
+    padding: 8px;
+    border: none;
+}
+
+.search-box input {
+    flex: 1;
+}
+
+.search-box button {
+    background: #febd69;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.cart {
+    font-weight: bold;
+}
+
+/* Navbar */
+.nav {
+    background: #232f3e;
+    padding: 8px 20px;
+}
+
+.nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #4f7d8a, #9bc1d4);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #eaeaea;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    margin: 10px 0;
+}

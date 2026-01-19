@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Float Example</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
 </head>
 <body>
-    <img src="https://images.pexels.com/photos/34608276/pexels-photo-34608276.jpeg" 
-         width="400px" height="400px">
+
+    <div class="box left">Left Box</div>
+    <div class="box right">Right Box</div>
+
+    
+
+    <div class="clear"></div>
+
+   
+
 </body>
 </html>
